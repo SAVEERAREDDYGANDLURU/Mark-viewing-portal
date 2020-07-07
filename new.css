@@ -1,0 +1,129 @@
+select{
+    width: 200px;
+      height: 20px;
+      color:black;
+      position:absolute;
+      top:20px;
+      left:40px;
+      width:230;
+      height:30px;
+  }
+  .form{
+    background-color: palegreen;
+  border: 1px solid #42464b;
+  border-radius: 6px;
+  height: 357px;
+  margin: 20px auto 0;
+  width: 298px;
+  position: absolute;
+  top:150px;
+  left:520px;
+}
+
+input[type="password"], input[type="text"] {
+
+    border: 2px solid #a1a3a3;
+    border-radius: 40px;
+    color: #696969;
+    height: 39px;
+    margin: 31px 0 0 29px;
+    padding-left: 37px;
+    width: 240px;
+  }
+  input[type="submit"] {
+    width:240px;
+    height:35px;
+    font-family:Arial, "Helvetica", sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:#fff;
+    text-align:center;
+    padding-top:3px;
+    margin: 40px 0 0 29px;
+    position:relative;
+    cursor:pointer;  
+    background-color: #37a69b;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius:5px;
+    
+  }
+  .head{
+      background-color: palegreen;
+      position:absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+  height: 80px;
+  font-size: 30px;
+  }
+  html{
+      background-color: beige;
+  }
+
+ h1{
+     display: inline;
+ }
+ .err1{
+     color: red;
+     position: absolute;
+     left:45;
+     top: 70;
+     
+ }
+ .err2{
+    color: red;
+    position: absolute;
+    left:45;
+    top: 160;
+    
+}
+.err3{
+    color: red;
+    position: absolute;
+    left:58;
+    top: 260;
+}
+.wel{
+    position: absolute;
+    left:495;
+    top: 100;
+}
+#t{
+    position: absolute;
+    right: 22;
+    top: 10;
+    background-color:#37a69b;
+    font-size: 25px;
+    border: 2px solid black;
+}html{
+background-color: beige;}
+#b{
+    position: absolute;
+    right: 25;
+    top: 210;
+}
+#a{
+    position: absolute;
+    right: 102;
+    top: 90;
+    background-color:#37a69b;
+    font-size: 25px;
+    border: 2px solid black;
+}
+#z{
+    position: absolute;
+    right: 108;
+    top: 10; 
+}
+#s{
+    position: absolute;
+    right: 25;
+    top: 100;  
+}
+#m{
+    position: absolute;
+    right: 25;
+    top: 50;
+}

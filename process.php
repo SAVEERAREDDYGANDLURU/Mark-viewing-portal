@@ -1,0 +1,49 @@
+<?php
+session_start();
+if(isset($_GET["marks"])){
+    $reg_no=$_SESSION['reg_no'];
+    header("Location:marks.php?reg=$reg_no"); 
+}
+if(isset($_GET["smarks"])){
+    $reg_no=$_SESSION['reg_no'];
+    header("Location:subject.php?reg=$reg_no"); 
+}
+if(isset($_GET["back"])){
+    $reg_no=$_SESSION['reg_no'];
+    header("Location:welcome.php?reg=$reg_no"); 
+}
+if(isset($_GET["change"])){
+    $reg_no=$_SESSION['reg_no'];
+    header("Location:change.php?reg=$reg_no"); 
+}
+if(isset($_GET["logout"])){
+    header("Location:login.php?"); 
+    session_destroy();
+}
+if(isset($_GET["CAT_1"])){
+    $reg_no=$_SESSION['reg_no'];
+    header("Location:cat1.php?reg=$reg_no"); 
+}
+if(isset($_GET["CAT_2"])){
+    $reg_no=$_SESSION['reg_no'];
+    header("Location:cat2.php?reg=$reg_no"); 
+}
+if(isset($_GET["CAT_3"])){
+    $reg_no=$_SESSION['reg_no'];
+    header("Location:cat3.php?reg=$reg_no"); 
+}
+if(isset($_GET["Back_1"])){
+    $reg_no=$_SESSION['reg_no'];
+    header("Location:marks.php?reg=$reg_no"); 
+}
+if(isset($_GET["VIEW"])){
+    $reg_no=$_SESSION['reg_no'];
+    $c=$_GET["course"];
+    header("Location:view.php?reg=$reg_no&c=$c"); 
+}
+if(isset($_GET["Back_2"])){
+    $reg_no=$_SESSION['reg_no'];
+    $c=$_GET["course"];
+    header("Location:subject.php?reg=$reg_no"); 
+}
+    ?>
