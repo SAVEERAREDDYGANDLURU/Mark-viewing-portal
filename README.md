@@ -1,5 +1,5 @@
 # Mark-viewing-portal
-A portal where students can view their marks
+A portal where students can view their marks.
 In addition to this, I created an admin interface that can be used to create student accounts
 ## Student Account
 ![image](https://user-images.githubusercontent.com/50575195/86806770-d20e4780-c096-11ea-8120-52544a2cdd1c.png)
